@@ -5,6 +5,7 @@
   "private": true,
   "main": "./bin/server",
   "scripts": {
+    "precommit": "npm run eslint",
     "test": "cypress open",
     "eslint": "eslint  --fix --cache ./shared --ext js",
     "start": "npm run dev",
@@ -79,6 +80,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^2.30.1",
     "human-standard-token-abi": "^1.0.2",
+    "husky": "^1.0.0",
     "ipfs": "github:DaoCasino/js-ipfs#dc-patch-2",
     "ipfs-pubsub-room": "DaoCasino/ipfs-pubsub-room#dc-patch-1",
     "jdenticon": "^2.1.0",
