@@ -5,7 +5,6 @@
   "private": true,
   "main": "./bin/server",
   "scripts": {
-    "precommit": "npm run eslint",
     "test": "cypress open",
     "eslint": "eslint  --fix --cache ./shared --ext js",
     "start": "npm run dev",
